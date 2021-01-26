@@ -2,6 +2,7 @@
 	namespace mvc\Core;
 
 	use mvc\Config\Database;
+	use mvc\Core\ResourceModelInterface;
 	use PDO;
 
 	class ResourceModel implements ResourceModelInterface
